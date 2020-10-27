@@ -1,0 +1,67 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+
+    body#page-home.theme-dark.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+            .page-textura
+                .container
+
+                    include includes/page-home_topbar.pug
+
+                    +pageHeader("Tema", "assets/images/header/header_media.png", "")   
+
+        section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
+
+            .container
+
+                include includes/page-home_resultados.pug  
+
+        section#IndiceTematico.curso-indice-tematico.section
+
+            .container
+
+                h2 Desarrollo de <br>contenidos
+                .brand-line-primary
+
+                .row.justify-content-center
+                    .col-12.col-sm-10
+                        .card.wow.flipInX(data-wow-delay=".4s")
+                            .card-body
+                                ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                    +navTemaItem('1', 'Presentación', 'main.html#page/#tema-1/')
+                                    +navTemaItem('2', 'Introducción evaluación de Impacto ambiental', 'main.html#page/#tema-2/')
+                                    +navTemaItem('3', 'Bases conceptuales para la evaluación y valoración de los aspectos, impactos y riesgos ambientales', 'main.html#page/#tema-3/')
+                                    +navTemaItem('4', 'Metodologías de valoración de impactos ambientales', 'main.html#page/#tema-4/')
+                                    +navTemaItem('5', 'Bases conceptuales sobre medidas de manejo ambiental', 'main.html#page/#tema-5/')
+
+        section#mainContent         
+            #tema-1
+                include pages/1-tema.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
+            #tema-5
+                include pages/5-tema.pug
+            #glosario
+                include pages/glosario.pug
+            #anexos
+                include pages/material-complementario.pug
+            #referencias
+                include pages/referencias.pug
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+        a.scroll-to-top-btn
+            .fa.fa-angle-up.fa-2x
+
+        script(src="assets/js/vendor.js")
+        script(src="js/local.js")
