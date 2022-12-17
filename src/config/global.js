@@ -1,17 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Identificar los Componentes Ambientales y Valorar los Impactos y Riesgos Ambientales según Metodologías Establecidas',
+    descripcionCurso:
+      'En este componente formativo se identificarán todos los términos, técnicas y métodos necesarios para el desarrollo del primer resultado de aprendizaje, su fin es preparar al aprendiz para el diagnóstico ambiental en una organización, realizando identificación del contexto de la organización, componentes ambientales, diversas metodologías de evaluación de impacto y riesgos ambientales para priorizar impactos significativos y proponer planes de manejo ambiental.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -24,22 +22,23 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
-        titulo: 'Introducción',
+        icono: 'far fa-file-alt',
+        numero: '1',
+        titulo: 'Presentación',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        numero: '1',
-        titulo: 'Titulo de primer nivel',
+        numero: '2',
+        titulo: 'Introducción Evaluación de Impacto ambiental',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
+            numero: '2.1',
             titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
         ],
       },
@@ -47,15 +46,23 @@ export default {
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
+        numero: '3',
+        titulo:
+          'Bases conceptuales para la Evaluación y Valoración de los aspectos, impactos y riesgos ambientales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        numero: '4',
+        titulo: 'Metodologías de valoración de impactos ambientales',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Medidas de manejo ambiental',
         desarrolloContenidos: true,
       },
     ],

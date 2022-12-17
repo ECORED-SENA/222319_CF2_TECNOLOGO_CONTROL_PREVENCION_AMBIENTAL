@@ -2,18 +2,45 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    bottom: 0
+    right: 20%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateX(20px)
 
   100%
-    transform: translateY(0px)
+    transform: translateX(0px)
+
+// banner interno
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-interno.jpg") !important    
+
+.banner-interno__titulo__icono
+  background-color: white !important
+  
+.banner-interno__titulo h2
+  color: white !important 
+
+.banner-principal__img
+  position: relative
+  width: 30%
+
+// fondos
+.fondo
+  &-1
+    background-color: #D9E2F4
+  &-2
+    background-color: #F3F9FF
+  &-3
+    background-color: #EAF0DA
+    border-radius: 15px
+  &-4
+    background-color: #ECF7F4
+    border-radius: 15px
+  &-5
+    background-image: url("../assets/curso/tema2/fondo1.jpg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
