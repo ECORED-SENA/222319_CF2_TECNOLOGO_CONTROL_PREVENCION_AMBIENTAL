@@ -33,14 +33,6 @@ export default {
         numero: '2',
         titulo: 'Introducción Evaluación de Impacto ambiental',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_2_1',
-          },
-        ],
       },
 
       {
@@ -57,6 +49,51 @@ export default {
         numero: '4',
         titulo: 'Metodologías de valoración de impactos ambientales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'La valoración ambiental',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Tipos de valor',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Criterios para la valoración ambiental',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'La capacidad de acogida o sensibilidad ambiental',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Características de los impactos',
+            hash: 't_3_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.7',
+            titulo: 'Gestión del riesgo',
+            hash: 't_3_7',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
