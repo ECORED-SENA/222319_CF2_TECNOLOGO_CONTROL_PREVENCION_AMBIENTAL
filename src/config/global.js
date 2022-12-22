@@ -54,7 +54,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas)',
             hash: 't_3_1',
           },
           {
@@ -101,6 +101,27 @@ export default {
         numero: '5',
         titulo: 'Medidas de manejo ambiental',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Valoración de los impactos ambientales',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Metodologías',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo:
+              'Metodología para la identificación y valoración de riesgos ambientales GTC 104 de 2009',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [

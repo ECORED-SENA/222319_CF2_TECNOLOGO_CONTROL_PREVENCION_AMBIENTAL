@@ -64,6 +64,14 @@
     background-color: #E8E8E8
   &-14
     background-color: #ECF7F4
+  &-15
+    background-color: #F6F6F6
+  &-16
+    background-color: #D2E1F1
+  &-17
+    background-color: #FFD150
+  &-18
+    background-color: #C6D8FC
 
 //Tabla B
 .anchocol
@@ -74,6 +82,12 @@
 
 .anchocol2
   width: 5% !important
+
+.anchocol3
+  width: 20% !important
+
+.anchocol4
+  width: 10% !important
 
 .bordes
   border: 2px solid #0540B7 !important
@@ -95,6 +109,9 @@
 .fuente-14px
   font-size: 14px
 
+.fuente-azul
+  color: #0a53f0 !important
+
 .orientacion-vert
   writing-mode: vertical-lr !important
   text-orientation: sideways !important
@@ -111,6 +128,14 @@
   @media (min-width: 577px)
     display: none
 
+.no-mostrarmenor768
+  @media (max-width: 768px)
+    display: none
+
+.no-mostrarmayor768
+  @media (min-width: 769px)
+    display: none
+
 .no-mostrarmenor1200
   @media (max-width: 1200px)
     display: none
@@ -122,6 +147,9 @@
 //dimensión columnas
 .anchocolumna
   width: 30%
+
+.separar
+  width: 48% !important
 
 // Tab A
 .tabs-a__tab
@@ -135,6 +163,10 @@
 
 .slyder-a__bullets__item
   background-color: rgba(128, 202, 182,0.35 )
+  @media (max-width: 576px)
+    width: 9px
+    height: 9px
+    margin: 0 3px
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: transparent
@@ -154,3 +186,7 @@
 
 .quitar-redondeado
   border-radius: 0 !important
+
+//-subir imagen
+.subir
+  margin-top: -30px
