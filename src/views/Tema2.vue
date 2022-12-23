@@ -559,7 +559,7 @@
               td.anchocol.bordes Periodicidad:
               td.bordes
                 p.mb-0 Se refiere a la regularidad con que se manifiesta el impacto, ya sea cíclico, continuo o intermitente.
-      .row.mb-3.justify-content-center(data-aos="fade-down-right")
+      .row.mt-3.mb-4.justify-content-center(data-aos="fade-down-right")
         .col-lg-10.col-12.fondo-9.py-3
           p.fuente-14px.mb-0 Jorge A, Arboleda (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades. Pág. 56 
     p(data-aos="fade-down-right") Partiendo de esta base de identificación de impactos, entraremos a realizar la valoración de estos.
