@@ -135,14 +135,14 @@
     p(data-aos="fade-down") De acuerdo con lo anterior y acorde con la metodología asignada por el instructor para realizar la valoración de los impactos de la organización o proyecto se sugiere tener en cuenta la siguiente metodología.  
     p(data-aos="fade-down-left") Aunque se aclara que es solo una sugerencia ya que el abanico de metodologías es tan amplio que pueden elegir la más pertinente dependiendo del proyecto.
     p(data-aos="fade-down-left") Imagen con la descripción de algunas de las metodologías más usadas en Colombia en los últimos años:
-    .row.justify-content-center.my-5
+    .row.justify-content-center.mt-4
       .col-lg-10.col-md-12.fondo-16.p-3.p-md-5.mb-5
         h4.text-center.mb-4 Método EPM o método Arboleda
         .row.justify-content-center
           .col-lg-10.col-md-12
             img(src="@/assets/curso/tema4/fig3.svg")
     //-fuente pie de grafica
-    .row.mt-3.mb-4.justify-content-center.px-0(data-aos="fade-down-left")
+    .row.mb-4.justify-content-center.px-0(data-aos="fade-down-left")
       .col-lg-10.col-12.fondo-13.mx-0.py-3
         p.fuente-14px.mb-0 Manual de Evaluación de Impacto Ambiental de Proyectos, Obras o Actividades. Capítulo 4. 
     p(data-aos="fade-down-right") Fue desarrollado por la Unidad Planeación Recursos Naturales de las Empresas Públicas de Medellín en el año 1986, con el propósito de evaluar proyectos de aprovechamiento hidráulico de la empresa, pero posteriormente se utilizó para evaluar todo tipo de proyectos de EPM y ha sido utilizado por otros evaluadores para muchos tipos de proyectos con resultados favorables. 
@@ -396,11 +396,11 @@
     Separador
     #t_4_3.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 4.3 Metodología para la identificación y valoración de riesgos ambientales GTC 104 de 2009.
-    p.mb-5 Respetado aprendiz, revise la siguiente información Cada punto es importante, por tanto, revise los pasos y las metodologías a emplear:   
-    h4 Paso 1 Recolección de información de acuerdo con la organización o proyecto.
-    p.mb-5 Indagar sobre los siguientes elementos en la organización o proyecto. Para este proceso se utilizan herramientas de búsqueda o diagnóstico:
+    p.mb-5(data-aos="fade-down-right") Respetado aprendiz, revise la siguiente información Cada punto es importante, por tanto, revise los pasos y las metodologías a emplear:   
+    h4(data-aos="fade-down-right") Paso 1 Recolección de información de acuerdo con la organización o proyecto.
+    p.mb-5(data-aos="fade-down-right") Indagar sobre los siguientes elementos en la organización o proyecto. Para este proceso se utilizan herramientas de búsqueda o diagnóstico:
     .row.justify-content-center
-      .col-lg-10.col-md-12.pt-5.ps-0.pb-0.fondo-2
+      .col-lg-10.col-md-12.pt-5.ps-0.pb-0.fondo-2(data-aos="fade-down-right")
         .row
           .col-2
             img(src="@/assets/curso/tema4/chico2.svg")
@@ -414,12 +414,12 @@
             p.mb-0 Se Identifican los sistemas de gestión implementados en la empresa. 
             p.mb-0 Se listan los recursos disponibles para llevar a cabo la valoración del riesgo. 
             p.mb-3 Se identifique el contexto Interno y externo de la organización. Para este punto, puede guiarse de la NTC-IEC-ISO31010 o en la ISO 14001: 2015. 
-    h4.mt-5 Paso 2 Análisis de datos e información.
-    p.mb-5 Una vez recolectada la información se procede a hacer un análisis que permita organizar datos recolectados. Para esto se utilizan matrices de Excel dónde consignan datos relevantes identificados.
-    h4 Paso 3 Identificación del riesgo. 
-    p.mb-5 El propósito de la identificación del riesgo es identificar lo que podrá suceder o cuales situaciones podrían existir que afecten el logro de los objetivos del sistema o la organización.
+    h4.mt-5(data-aos="fade-down-right") Paso 2 Análisis de datos e información.
+    p.mb-5(data-aos="fade-down-left") Una vez recolectada la información se procede a hacer un análisis que permita organizar datos recolectados. Para esto se utilizan matrices de Excel dónde consignan datos relevantes identificados.
+    h4(data-aos="fade-down-right") Paso 3 Identificación del riesgo. 
+    p.mb-5(data-aos="fade-down-left") El propósito de la identificación del riesgo es identificar lo que podrá suceder o cuales situaciones podrían existir que afecten el logro de los objetivos del sistema o la organización.
     .row.justify-content-center.mb-5
-      .col-lg-8.col-md-10.col-12.fondo-2
+      .col-lg-8.col-md-10.col-12.fondo-2(data-aos="fade-down-right")
         .row.justify-content-center
           .col-lg-8.col-12.my-4.order-lg-first.order-last
             h5.text-center Los métodos para valorar el riesgo pueden incluir:
@@ -428,16 +428,16 @@
             p.text-center.mb-0 Técnicas de razonamiento inductivo.
           .col-lg-2.col-sm-3.col-4.order-first.order-lg-last
             img.subir(src="@/assets/curso/tema3/chica.svg")
-    p En ese sentido es importante tener en cuenta la siguiente caja de herramientas presentada en la norma NTC-IEC-ISO31010, anexo Tabla A.1, la cual puede consultar en la biblioteca SENA: 
+    p(data-aos="fade-down-right") En ese sentido es importante tener en cuenta la siguiente caja de herramientas presentada en la norma NTC-IEC-ISO31010, anexo Tabla A.1, la cual puede consultar en la biblioteca SENA: 
       a.boton--sm.color-primario.me-3(:href="('http://biblioteca.sena.edu.co/')" target="_blank")
         span Enlace <i>web</i>
         i.fas.fa-link
       span e ir a ICONTEC,  buscar la norma NTC  ISO31010, anexo Tabla A.1
-    p.mb-5 Ver matriz Procesos sistemáticos para identificar impactos ambientales.
-    h5.text-center.mb-3 Tabla 1. Procesos sistemáticos para identificar impactos ambientales
+    p.mb-5(data-aos="fade-down-right") Ver matriz Procesos sistemáticos para identificar impactos ambientales.
+    h5.text-center.mb-3(data-aos="fade-down-right") Tabla 1. Procesos sistemáticos para identificar impactos ambientales
     //- tabla C
     .row.justify-content-center.mb-5
-      .col-lg-8.col-md-10.col-12.mb-4.mb-lg-0
+      .col-lg-8.col-md-10.col-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         .tabla-c
           table
             tr.text-center
@@ -464,15 +464,15 @@
             tr.fondo-10
               td.anchocol.bordes.fondo-18.text-center Suelo
               td.bordes
-        .row.mt-3.mb-4.justify-content-center(data-aos="fade-down-left")
+        .row.mt-3.justify-content-center(data-aos="fade-down-left")
           .col-12.fondo-13.py-3
             p.fuente-14px.mb-0 Autores (2020) tabla ajustada de la NTC 104. Gestión el riesgo ambiental procesos sistémicos.
-    h4 Paso 4 Análisis de riesgos.
-    p.mb-0 Análisis cualitativo
-    p.mb-5 Para realizar el análisis cualitativo se debe tener en cuenta las siguientes tablas. 
+    h4(data-aos="fade-down-right") Paso 4 Análisis de riesgos.
+    p.mb-0(data-aos="fade-down-left") Análisis cualitativo
+    p.mb-5(data-aos="fade-down-right") Para realizar el análisis cualitativo se debe tener en cuenta las siguientes tablas. 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 2. Medición cualitativa de la posibilidad.
         .tabla-c
           table
@@ -518,7 +518,7 @@
             p.fuente-14px.mb-0 Fuente: ICONTEC (2009) GTC 104. Gestión el riesgo ambiental. Tabla 4A p.34.
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 3. Mediciones cualitativas de impacto.
         .tabla-c
           table
@@ -565,7 +565,7 @@
 
     //- tabla C
     .row.justify-content-center.mb-5
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 4. Matriz de nivel de riesgo.
         .tabla-c
           table
@@ -635,11 +635,11 @@
         .row.mt-3.justify-content-center(data-aos="fade-down-left")
           .col-12.fondo-13.py-3
             p.fuente-14px.mb-0 Fuente: ICONTEC (2009) GTC 104. Gestión el riesgo ambiental. Tabla 4C p.36
-    p.mb-5 Con base en la información analizada de acuerdo con la naturaleza de su proyecto formativo, se diligencia la siguiente matriz, la cual puede ser modificada de acuerdo con necesidades. 
+    p.mb-5(data-aos="fade-down-right") Con base en la información analizada de acuerdo con la naturaleza de su proyecto formativo, se diligencia la siguiente matriz, la cual puede ser modificada de acuerdo con necesidades. 
 
     //- tabla C
     .row.justify-content-center.mb-5
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5. Matriz de registro de análisis de riesgos
         .tabla-c
           table
@@ -683,8 +683,8 @@
         .row.mt-3.justify-content-center(data-aos="fade-down-left")
           .col-12.fondo-13.py-3
             p.fuente-14px.mb-0 Nota: La matriz presenta ejemplos para su diligenciamiento, tenerlos en cuanta solo como guía./ Autores (2020) tabla de la NTC 104. Matriz registro de análisis de riesgos.
-    h4 Paso 5 Valoración del riesgo. 
-    p.mb-0 Teniendo en cuenta el Anexo B de la norma NTC-IEC-ISO31010 y el Numeral 2.6 de la GTC 104 y la estrategia seleccionada se, diseña un formato para valorar los riesgos. La valoración del riesgo debe ir enfocada a la naturaleza de la empresa o proyecto, a continuación, un ejemplo. 
+    h4(data-aos="fade-down-right") Paso 5 Valoración del riesgo. 
+    p.mb-0(data-aos="fade-down-right") Teniendo en cuenta el Anexo B de la norma NTC-IEC-ISO31010 y el Numeral 2.6 de la GTC 104 y la estrategia seleccionada se, diseña un formato para valorar los riesgos. La valoración del riesgo debe ir enfocada a la naturaleza de la empresa o proyecto, a continuación, un ejemplo. 
     .row.justify-content-center
       .col-lg-6.col-md-8.col-sm-10.col-12.p-4
         h5.mb-3 Gráfico 1. Categorías del riesgo. 

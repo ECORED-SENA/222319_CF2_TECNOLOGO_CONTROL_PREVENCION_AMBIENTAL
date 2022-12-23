@@ -2,18 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-down-right")
       .titulo-principal__numero
         span 5
       h1 Bases conceptuales sobre medidas de manejo ambiental
-    img(src="@/assets/curso/tema5/img1.jpg")
+    img(data-aos="fade-down-right")(src="@/assets/curso/tema5/img1.jpg")
     Separador
     #t_5_1.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 5.1 Plan de Manejo Ambiental 
-    p Según el decreto 2041 de 2014 sobre Licencias Ambientales, define que el Plan de Manejo Ambiental “Es el conjunto detallado de actividades, que producto de una evaluación ambiental, están orientadas a prevenir, mitigar, corregir o compensar los impactos y efectos ambientales que se causen por el desarrollo de un proyecto, obra o actividad.  Incluye los planes de seguimiento, monitoreo, contingencia, y abandono según la naturaleza del proyecto, obra o actividad”.
-    p De acuerdo con lo anterior, es importante destacar que la formulación del plan de manejo ambiental del proyecto, obra o actividad debe incluir tres aspectos:
+    p(data-aos="fade-down-left") Según el decreto 2041 de 2014 sobre Licencias Ambientales, define que el Plan de Manejo Ambiental “Es el conjunto detallado de actividades, que producto de una evaluación ambiental, están orientadas a prevenir, mitigar, corregir o compensar los impactos y efectos ambientales que se causen por el desarrollo de un proyecto, obra o actividad.  Incluye los planes de seguimiento, monitoreo, contingencia, y abandono según la naturaleza del proyecto, obra o actividad”.
+    p(data-aos="fade-down-right") De acuerdo con lo anterior, es importante destacar que la formulación del plan de manejo ambiental del proyecto, obra o actividad debe incluir tres aspectos:
 
-    ImagenInfografica.color-secundario.my-5
+    ImagenInfografica.color-secundario.my-5(data-aos="fade-down-right")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema5/img2.svg')
@@ -33,19 +33,19 @@
     Separador
     #t_5_2.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 5.2 Esquema conceptual de la formulación del PMA
-    p.mb-5 Para la formulación del PMA, es necesario volver a utilizar toda la información recolectada, procesada o producida en los elementos anteriores de la EIA, es decir, se requiere la información sobre el proyecto, en especial la de las ASPI, la información sobre el ambiente que puede ser afectado, en especial de las FARI y la información sobre los impactos. Igualmente, en este proceso se produce información que se debe incorporar a los estudios técnicos y económicos del proyecto en su conjunto, tales como los costos, los programas de ejecución del PMA.
+    p.mb-5(data-aos="fade-down-right") Para la formulación del PMA, es necesario volver a utilizar toda la información recolectada, procesada o producida en los elementos anteriores de la EIA, es decir, se requiere la información sobre el proyecto, en especial la de las ASPI, la información sobre el ambiente que puede ser afectado, en especial de las FARI y la información sobre los impactos. Igualmente, en este proceso se produce información que se debe incorporar a los estudios técnicos y económicos del proyecto en su conjunto, tales como los costos, los programas de ejecución del PMA.
     .row
-      .col-12.p-5.fondo-10
+      .col-12.p-5.fondo-10(data-aos="fade-down-right")
         img(src='@/assets/curso/tema5/img3.svg')
     //-fuente pie de grafica
-    .row.mb-4.justify-content-center.px-0(data-aos="fade-down-left")
-      .col-12.fondo-13.mx-0.py-3
+    .row.mb-4.mt-3.justify-content-center.px-0(data-aos="fade-down-left")
+      .col-12.fondo-13.mx-0.py-3(data-aos="fade-down-right")
         p.fuente-14px.mb-0 Jorge A, Arboleda (2008) Manual de Evaluación de Impacto Ambiental de Proyectos, Obras o Actividades. p. 108
     Separador
     #t_5_3.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 5.3 Tipos de medida según los objetivos que se persiguen:
-    p.mb-5 De acuerdo con la finalidad o el objetivo que se desea alcanzar, las medidas se pueden clasificar de la siguiente manera:
-    .tarjeta.fondo-4.p-3.p-sm-5.mb-5
+    p.mb-5(data-aos="fade-down-right") De acuerdo con la finalidad o el objetivo que se desea alcanzar, las medidas se pueden clasificar de la siguiente manera:
+    .tarjeta.fondo-4.p-3.p-sm-5.mb-5(data-aos="fade-down-right")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-xl-6.col-12.mb-4.mb-md-0.pe-4
@@ -78,8 +78,8 @@
           .col-xl-6.col-lg-8.col-md-10.col-12.pe-xl-4
             figure
               img(src='@/assets/curso/tema5/img7.png')
-    p.mb-5 Para comprender mejor en qué consisten las medidas de manejo y observar algunos ejemplos lo invito a consulte el siguiente material que se encuentra en material de apoyo.
-    .row.justify-content-center.mb-4
+    p.mb-5(data-aos="fade-down-right") Para comprender mejor en qué consisten las medidas de manejo y observar algunos ejemplos lo invito a consulte el siguiente material que se encuentra en material de apoyo.
+    .row.justify-content-center
       .col-lg-10.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         .tarjeta.fondo-5.px-3.py-2.mb-5
           .row.justify-content-around.align-items-center
@@ -97,9 +97,9 @@
     Separador
     #t_5_4.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 5.4 Ejemplo de medidas de manejo ambiental.
-    p.mb-5 Las medidas de manejo ambiental las define la empresa de acuerdo a sus impactos significativos o componentes afectados por esos impactos significativos ejemplo Plan de manejo ambiental de control de emisiones ( relaciona el impacto significativo) o Plan de manejo ambiental calidad del aire dirigido hacia el componente ambiental que esta vulnerado por el impacto), medidas por directrices de autoridades ambientales y si requiere cumplir términos de referencia o guías ambientales del sector para licencia ambiental.
+    p.mb-5(data-aos="fade-down-right") Las medidas de manejo ambiental las define la empresa de acuerdo a sus impactos significativos o componentes afectados por esos impactos significativos ejemplo Plan de manejo ambiental de control de emisiones ( relaciona el impacto significativo) o Plan de manejo ambiental calidad del aire dirigido hacia el componente ambiental que esta vulnerado por el impacto), medidas por directrices de autoridades ambientales y si requiere cumplir términos de referencia o guías ambientales del sector para licencia ambiental.
     .row.justify-content-center.mb-5
-      .col-lg-10.col-12.fondo-2
+      .col-lg-10.col-12.fondo-2(data-aos="fade-down-right")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-sm-3.col-4
             img.subir(src="@/assets/curso/tema3/fig3.svg")
@@ -108,7 +108,7 @@
             p.mb-0 Visualice las tablas Ejemplo de Medidas de manejo ambiental 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.1 Ejemplo de medidas de manejo de ingeniería o estructurales
         .tabla-c
           table
@@ -181,11 +181,11 @@
         .row.mt-3.mb-4.justify-content-center(data-aos="fade-down-left")
           .col-12.fondo-13.py-3
             p.fuente-14px.mb-0 Fuente: Jorge A, Arboleda (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades.p.112
-    p En las tablas siguientes se presentan unos listados genéricos de medidas para el manejo de algunos impactos ambientales, las cuales se realizan por componentes ambientales afectados, las cuales son las más comunes de usar.
-    p.mb-5 El tipo de medidas que pueden ser aplicadas para el manejo de los impactos ambientales de un determinado proyecto.
+    p(data-aos="fade-down-right") En las tablas siguientes se presentan unos listados genéricos de medidas para el manejo de algunos impactos ambientales, las cuales se realizan por componentes ambientales afectados, las cuales son las más comunes de usar.
+    p.mb-5(data-aos="fade-down-right") El tipo de medidas que pueden ser aplicadas para el manejo de los impactos ambientales de un determinado proyecto.
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.1 Ejemplo de medidas de manejo de ingeniería o estructurales
         .tabla-c
           table
@@ -243,7 +243,7 @@
 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.3 Ejemplo de medidas de manejo de tipo administrativo o contractual
         .tabla-c
           table
@@ -280,11 +280,11 @@
         .row.mt-3.mb-4.justify-content-center(data-aos="fade-down-left")
           .col-12.fondo-13.py-3
             p.fuente-14px.mb-0 Jorge A, Arboleda (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades.p.113
-    p En las tablas siguientes se presentan unos listados genéricos de medidas para el manejo de algunos impactos ambientales, las cuales se realizan por componentes ambientales afectados, las cuales son las más comunes de usar.
-    p.mb-5 El tipo de medidas que pueden ser aplicadas para el manejo de los impactos ambientales de un determinado proyecto. 
+    p(data-aos="fade-down-right") En las tablas siguientes se presentan unos listados genéricos de medidas para el manejo de algunos impactos ambientales, las cuales se realizan por componentes ambientales afectados, las cuales son las más comunes de usar.
+    p.mb-5(data-aos="fade-down-left") El tipo de medidas que pueden ser aplicadas para el manejo de los impactos ambientales de un determinado proyecto. 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.4 Medidas genéricas para el manejo de los impactos sobre el agua
         .tabla-c
           table
@@ -337,8 +337,8 @@
 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
-        h5.mb-3 Tabla 5.5 de Medidas genéricas para el ,anejo de los impactos sobre el aire
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
+        h5.mb-3 Tabla 5.5 de Medidas genéricas para el manejo de los impactos sobre el aire
         .tabla-c
           table
             tr.text-center
@@ -388,7 +388,7 @@
 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.6 Medidas genéricas para el manejo de los impactos sobre el suelo
         .tabla-c
           table
@@ -463,7 +463,7 @@
 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.7 Medidas genéricas para el manejo de los impactos sobre la vegetación
         .tabla-c
           table
@@ -505,7 +505,7 @@
 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.8 Medidas genéricas para el manejo de los impactos sobre la fauna
         .tabla-c
           table
@@ -557,7 +557,7 @@
             p.fuente-14px.mb-0 Jorge A, Arboleda (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.9 Medidas genéricas para el manejo de los impactos sobre el paisaje
         .tabla-c
           table
@@ -590,7 +590,7 @@
 
     //- tabla C
     .row.justify-content-center.mb-4
-      .col-lg-10.mb-4.mb-lg-0
+      .col-lg-10.mb-4.mb-lg-0(data-aos="fade-down-right")
         h5.mb-3 Tabla 5.10 Medidas genéricas para el manejo de los impactos sobre el medio social
         .tabla-c
           table
@@ -698,10 +698,10 @@
     Separador
     #t_5_5.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 5.5 Procedimiento para la selección de las medidas de manejo.
-    p No existe un procedimiento universal para la formulación de un plan de manejo de los impactos ambientales, por lo que este trabajo se apoya más en la experiencia y conocimiento de las personas que participan en la EIA. A continuación, se expone un proceso lógico que apunta en este sentido. 
-    p.mb-5 Tome la flecha y de clic al blanco para que visualice la información:
+    p(data-aos="fade-down-right") No existe un procedimiento universal para la formulación de un plan de manejo de los impactos ambientales, por lo que este trabajo se apoya más en la experiencia y conocimiento de las personas que participan en la EIA. A continuación, se expone un proceso lógico que apunta en este sentido. 
+    p.mb-5(data-aos="fade-down-right") Tome la flecha y de clic al blanco para que visualice la información:
     .row.justify-content-center.mb-5
-      .col-12.fondo-14
+      .col-12.fondo-14(data-aos="fade-down-left")
         .row.justify-content-center.align-items-center
           .col-xl-2.col-sm-3.col-4
             img.subir(src="@/assets/curso/tema5/chicoderecha.svg")
@@ -709,7 +709,7 @@
             p.text-bold.mb-2 Paso 1. Análisis de los impactos y las relaciones causa-efecto. 
             p.mb-0 El primer paso para poder identificar las medidas de manejo es conocer muy bien todo lo relacionado con el impacto, tal como la acción que lo origina, las consecuencias que genera, su área de influencia, los atributos con los cuales se presenta (magnitud, periodicidad, velocidad, duración, etc.). Igualmente es necesario conocer muy bien los factores ambientales que están siendo afectados, por dicho impacto: Sus condiciones iniciales (sin proyecto), sus probables condiciones finales (con proyecto), su susceptibilidad al cambio, su importancia (ecológica, económica, cultural, etc.), etc. 
     .row
-      .col-12.fondo-7.p-5
+      .col-12.fondo-7.p-5(data-aos="fade-down-right")
         p.text-bold.mb-2 Paso 2. Análisis del marco normativo y empresarial.
         p Cuando se tenga un conocimiento detallado del impacto y del ambiente que va a ser afectado, se deben analizar las normas de tipo legal que se aplican al proyecto y a los impactos que se generan (emisiones, vertimientos, consumos, etc.), 
         p.mb-0 Las exigencias de la autoridad ambiental (contenida en los términos de referencia, en resoluciones, etc.), las exigencias de tipo sectorial, las obligaciones empresariales establecidas en políticas o normas internas o en convenios que la empresa haya firmado, etc.
@@ -723,7 +723,7 @@
       .col-lg-5.col-md-6.col-sm-8.col-10(data-aos="fade-down-left")
         img(src="@/assets/curso/tema5/img8.jpg")
     .row.my-5
-      .col-12.fondo-19.p-5
+      .col-12.fondo-19.p-5(data-aos="fade-down-right")
         p.text-bold.mb-2 Paso 3. Identificación de las acciones o medidas generales que pueden manejar el impacto. 
         p El siguiente paso consiste en empezar a analizar y a definir las medidas que pueden manejar el impacto analizado, de acuerdo con todo el abanico de posibilidades que se planteó anteriormente. En la selección de la medida se debe tener en cuenta lo siguiente: 1. Comprobar si es posible implementar algún cambio en el proyecto para eliminar el impacto (este chequeo debe hacerse teniendo en cuenta consideraciones de tipo técnico y económico). 2. Si no se puede prevenir el impacto, proponer una medida de mitigación o corrección dependiendo del tipo de impacto, hasta llevarlo a un nivel de significancia aceptable. 3. Si no es posible prevenir el impacto y tampoco atenuarlo, entonces se propone una medida de compensación. Inicialmente, se debe hacer un planteamiento general de la medida, indicando claramente el impacto que va a manejar e identificando sus aspectos generales, ya que el diseño definitivo se hará posteriormente en el paso 5.
     p.text-bold.mb-2 Paso 4. Agrupación de las medidas de manejo generales propuestas. 
@@ -734,14 +734,14 @@
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p.fondo-2.p-4 Por ejemplo, se puede tener una medida para el control de la erosión que implique el uso de coberturas vegetales (engramados, reforestación, etc.), otra medida para tratamiento paisajístico que requiere también la utilización de vegetación y una medida de compensación para reponer un área determinada de vegetación destruida. 
         p Estas tres medidas que implican la producción, uso y trabajos con material vegetal, se podrían agrupar en una sola que se llame, por ejemplo: Proyecto de tratamientos con vegetación y que incluya todas las actividades necesarias para atender todos los impactos donde se necesite el uso, manejo y tratamiento con vegetación. La idea es entonces revisar todas las medidas propuestas en el paso 3, para buscar cuales son comunes o tienen sinergias con otras y determinar los que se pueden agrupar y convertirlas en medidas que se puedan trabajar juntas. 
-    p.text-bold.mb-2.mt-5 Paso 5. Diseño de la medida o proyecto propuesto. 
-    p El siguiente paso, luego de que se tengan agregadas las medidas de manejo, es realizar el diseño de esta, de tal forma que pueda ser llevada a construcción o implementación por el constructor o el operador del proyecto y que se puedan estimar los costos requeridos para llevarla a cabo con un grado aceptable de confiabilidad. Esta formulación detallada debe contener como mínimo, lo siguiente:
+    p.text-bold.mb-2.mt-5(data-aos="fade-down-right") Paso 5. Diseño de la medida o proyecto propuesto. 
+    p(data-aos="fade-down") El siguiente paso, luego de que se tengan agregadas las medidas de manejo, es realizar el diseño de esta, de tal forma que pueda ser llevada a construcción o implementación por el constructor o el operador del proyecto y que se puedan estimar los costos requeridos para llevarla a cabo con un grado aceptable de confiabilidad. Esta formulación detallada debe contener como mínimo, lo siguiente:
     .row
       .col-12.pt-4.ps-md-0.pb-0.fondo-19
         .row.justify-content-center.align-items-center
-          .col-md-3.col-5.mb-md-0.mb-4
+          .col-md-3.col-5.mb-md-0.mb-4(data-aos="fade-down-right")
             img(src="@/assets/curso/tema5/chicaderecha.svg")
-          .col-md-9.col-12
+          .col-md-9.col-12(data-aos="fade-down-left")
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta

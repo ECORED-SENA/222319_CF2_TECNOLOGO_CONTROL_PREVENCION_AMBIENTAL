@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-down-right")
       .titulo-principal__numero
         span 3
       h1 Bases conceptuales para la Evaluación y Valoración de los aspectos, impactos y riesgos ambientales
-    img.my-5(src="@/assets/curso/tema3/img1.jpg") 
+    img(data-aos="fade-down-left").my-5(src="@/assets/curso/tema3/img1.jpg") 
     Separador
-    #t_3_1.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_1.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.1 Introducción
-    ImagenInfografica.color-secundario.my-5
+    ImagenInfografica.color-secundario.my-5(data-aos="fade-down-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/img2.svg')
@@ -28,7 +28,7 @@
 
       .tarjeta.fondo-4.p-3(x="90%" y="45%" numero="5")
         p Se relaciona según Arboleda, un listado general de aspectos ambientales y su correspondiente impacto ambiental
-    p.mb-5 A continuación, se relacionan algunas tablas que se relacionan en el Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades.
+    p.mb-5(data-aos="fade-down-right") A continuación, se relacionan algunas tablas que se relacionan en el Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades.
     .row.justify-content-center.mb-4
       .col-lg-8.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         .tarjeta.fondo-5.p-3.mb-5
@@ -45,9 +45,9 @@
                     span.text-dark Enlace web
                     i.fas.fa-link  
     .row.mb-5
-      .col-2.me-0.pe-0
+      .col-2.me-0.pe-0(data-aos="fade-down-right")
         img(src="@/assets/curso/tema3/fig2.svg")
-      .col-10.fondo-4.p-5
+      .col-10.fondo-4.p-5(data-aos="fade-down-left")
         h4 Ejemplo 1: 
         span Identificación de áreas, procesos y componentes de un proyecto, obra o actividad.
         p Fabrica por construir y localizada en zona rural
@@ -76,12 +76,12 @@
                     p.mb-0 Zona almacenamiento de combustibles
                     p.mb-0 Talleres
                     p.mb-0 Depósitos de basuras
-          .col-lg-6.col-8
+          .col-lg-6.col-md-8.col-10
             img(src="@/assets/curso/tema3/img3.png")
-    span.fuente-18px.mt-5 Ejemplo 2: 
-    span Diagrama de flujo para la fabricación de mantequilla, con sus respectivas entradas y salidas identificando aspectos ambientales.
+    span.fuente-18px.mt-5(data-aos="fade-down-right") Ejemplo 2: 
+    span(data-aos="fade-down-right") Diagrama de flujo para la fabricación de mantequilla, con sus respectivas entradas y salidas identificando aspectos ambientales.
     .row.justify-content-center.my-5
-      .col-lg-10.col-md-12.fondo-7.px-4.py-5
+      .col-lg-10.col-md-12.fondo-7.px-4.py-5(data-aos="fade-down-right")
         .row.justify-content-center.mb-4
           .col-lg-3.col-4.fondo-8.py-sm-4.py-3.px-0.px-sm-2
             h4.text-center.mb-0 Entradas / Materias primas / Demandas de RRNN
@@ -177,13 +177,13 @@
             p.text-center.mb-0 Empaque
           .col-3
             p Residuos sólidos
-      .row.mt-3.mb-5.justify-content-center.px-0
+      .row.mt-3.justify-content-center.px-0
         .col-lg-10.col-12.fondo-9.mx-0.py-3
           p.fuente-14px.mb-0 Fuente: Jorge A, A (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades. Pág. 25.
-    span.fuente-18px.mt-5 Ejemplo 3: 
-    span Descripción de las ASPI (acciones susceptibles de producir impactos), de un proyecto, obra o actividad
+    span.fuente-18px.mt-5(data-aos="fade-down-right") Ejemplo 3: 
+    span(data-aos="fade-down-right") Descripción de las ASPI (acciones susceptibles de producir impactos), de un proyecto, obra o actividad
     .row.justify-content-center.my-5
-      .col-lg-10.col-12.mb-4.mb-lg-0.fondo-7.p-5
+      .col-lg-10.col-12.mb-4.mb-lg-0.fondo-7.p-5(data-aos="fade-down-right")
         .tabla-c
           table
             tr.text-center.fondo-6.text-white
@@ -224,13 +224,13 @@
                 p.mb-0 Turbinado
                 p.mb-0 Apertura de compuertas de verdadero y descarga de fondo
                 p.mb-0 Mantenimiento de vías
-      .row.mt-3.mb-4.justify-content-center.px-0
+      .row.mt-3.justify-content-center.px-0
         .col-lg-10.col-12.fondo-9.mx-0.py-3
           p.fuente-14px.mb-0 Fuente: Jorge A, A (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades. Pág. 25.
-    span.fuente-18px.mb-5 Ejemplo 4: 
-    span Descripción de ASPI, ASPECTOS e IMPACTOS ambientales de un proyecto, obra o actividad.
+    span.fuente-18px.mb-5(data-aos="fade-down-right") Ejemplo 4: 
+    span(data-aos="fade-down-right") Descripción de ASPI, ASPECTOS e IMPACTOS ambientales de un proyecto, obra o actividad.
     .row.justify-content-center.my-5
-      .col-lg-10.col-12.mb-4.mb-lg-0
+      .col-lg-10.col-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         .tabla-c
           table.fondo-10
             tr.text-center
@@ -341,9 +341,9 @@
                 p.mb-0 Intervención del suelo
               td.bordesabajo
                 p.mb-0 Alteración de las propiedades fisicoquímicas del suelo.
-    p.my-5 Partiendo de esta base de identificación de impactos, entraremos a realizar la valoración de estos.
+    p.my-5(data-aos="fade-down-right") Partiendo de esta base de identificación de impactos, entraremos a realizar la valoración de estos.
     Separador
-    #t_3_2.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_2.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.2 La valoración ambiental
     .row
       .col-lg-2.col-3.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -358,11 +358,11 @@
             img.me-0(src="@/assets/curso/tema2/flecha.svg")
           .col-lg-11.col-10.fondo-3.p-md-4.p-3.ms-0.mt-2(data-aos="fade-down-left")  
             p.mb-0 Esta valoración es el resultado del proceso de análisis y procesamiento de la información recolectada, por medio del cual se valora o cualifica la calidad de los componentes y factores del ambiente estudiado, permitiendo entonces sacar conclusiones sobre su importancia y apoyar de esta manera la toma de decisiones sobre las posibilidades de intervenirlo con el proyecto o de conservarlo en su estado actual.
-    p.fondo-3.p-4.my-5 Para que visualice la información de los tipos de valor, tome cada imagen y colóquela en el cuadrante que corresponda, de esta manera completará el rompecabezas y sabrá de qué trata este ítem 
+    p.fondo-3.p-4.my-5(data-aos="fade-down-right") Para que visualice la información de los tipos de valor, tome cada imagen y colóquela en el cuadrante que corresponda, de esta manera completará el rompecabezas y sabrá de qué trata este ítem 
     Separador
-    #t_3_3.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_3.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.3 Tipos de valor
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-down-right")
 
       .tarjeta.fondo-4.p-4(titulo="Productivo")
         .row.justify-content-around.align-items-center
@@ -400,10 +400,10 @@
             h4 Sociocultural
             p Estriba en la importancia e interés de las estructuras y condiciones sociales e histórico-culturales de las comunidades humanas o de la población de un área determinada.
     Separador
-    #t_3_4.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_4.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.4 Criterios para la valoración ambiental
-    p.mb-5 El valor ambiental de un factor es directamente proporcional al grado de caracterización cualitativa que producen las siguientes consideraciones, las cuales pueden tomarse como aspectos que posibilitan la determinación de la valoración ambiental (Conesa, 1997):
-    .tarjeta.fondo-4.p-5.mb-5
+    p.mb-5(data-aos="fade-down-right") El valor ambiental de un factor es directamente proporcional al grado de caracterización cualitativa que producen las siguientes consideraciones, las cuales pueden tomarse como aspectos que posibilitan la determinación de la valoración ambiental (Conesa, 1997):
+    .tarjeta.fondo-4.p-5.mb-5(data-aos="fade-down-right")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-xl-6.col-12.mb-4.mb-md-0
@@ -436,9 +436,9 @@
             figure
               img(src='@/assets/curso/tema3/img5.png')
     Separador
-    #t_3_5.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_5.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.5 La capacidad de acogida o sensibilidad ambiental
-    p.mb-5 La capacidad de acogida es la aptitud que presenta un determinado territorio para recibir las consecuencias positivas y negativas que se pueden derivar de la construcción o el funcionamiento de un proyecto (Conesa, 1997). 
+    p.mb-5(data-aos="fade-down-right") La capacidad de acogida es la aptitud que presenta un determinado territorio para recibir las consecuencias positivas y negativas que se pueden derivar de la construcción o el funcionamiento de un proyecto (Conesa, 1997). 
     .row.p-5.fondo-11.correr
       .col-12
         .row.justify-content-center
@@ -447,7 +447,7 @@
           .col-lg-6.col-md-12(data-aos="fade-down-left")
             p.fondo-12.p-4.mb-0 Para su determinación se ha utilizado el concepto de la “sensibilidad ambiental” la cual se define como la mayor o menor capacidad de un sistema natural o social, para asimilar la acción de agentes externos sobre alguna de sus partes, sin que se produzcan cambios en la estructura o las propiedades de esas partes, de una magnitud tal que las alteren significativamente en comparación con su estado original. 
             p.mb-0.mt-4 Esta sensibilidad ambiental no puede entenderse si se piensa en el sistema como un todo, puesto que la acción de los agentes externos se realiza, necesariamente, sobre componentes específicos del sistema.
-    p.my-5 Existen diferentes criterios para calificar la sensibilidad ambiental, sin embargo, puede partirse de una escala inversa de tres rangos, así:
+    p.my-5(data-aos="fade-down-right") Existen diferentes criterios para calificar la sensibilidad ambiental, sin embargo, puede partirse de una escala inversa de tres rangos, así:
     .row.justify-content-center
       .col-lg-7.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-4")
@@ -465,9 +465,9 @@
               p Cuando la acción de un proyecto o actividad, aún si tiene una magnitud considerable, produce cambios menores en la estructura o propiedades del componente sobre el cual actúa.
       .col-lg-5.col-md-8(data-aos="fade-down-left")
         img(src='@/assets/curso/tema3/img7.jpg')
-    p.my-4 Estas condiciones de acogida o sensibilidad se obtienen de los resultados de la evaluación ambiental, pero muchas veces también puede estar definida por los planes de ordenamiento territorial o las normas de usos del suelo.
+    p.my-4(data-aos="fade-down-right") Estas condiciones de acogida o sensibilidad se obtienen de los resultados de la evaluación ambiental, pero muchas veces también puede estar definida por los planes de ordenamiento territorial o las normas de usos del suelo.
     Separador
-    #t_3_6.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_6.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.6 Características de los impactos
     .row.no-mostrarmenor1200
       .col-lg-2.col-3.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -505,13 +505,13 @@
           img(src="@/assets/curso/tema3/chica.svg")
     .row.no-mostrarmenor1200
       .col-1
-      .col-lg-1.col-2
+      .col-lg-1.col-2(data-aos="fade-down-right")
         img.mb-0.p-0.px-sm-3(src="@/assets/curso/tema3/flechazularriba.svg")
     .row.justify-content-center
-      .col-lg-10.col-md-12
+      .col-lg-10.col-md-12(data-aos="fade-down-right")
         p.p-4.fondo-4 En la siguiente tabla se presenta una lista de algunas de estas características, obtenida del libro de Vicente Conesa, (1997) Guía metodológica para la evaluación de impacto ambiental.
     .row.justify-content-center.my-5
-      .col-lg-10.col-12.mb-4.mb-lg-0
+      .col-lg-10.col-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         .tabla-c
           table
             tr.text-center.fondo-6.text-white
@@ -559,27 +559,27 @@
               td.anchocol.bordes Periodicidad:
               td.bordes
                 p.mb-0 Se refiere a la regularidad con que se manifiesta el impacto, ya sea cíclico, continuo o intermitente.
-      .row.mt-3.mb-5.justify-content-center
+      .row.mb-3.justify-content-center(data-aos="fade-down-right")
         .col-lg-10.col-12.fondo-9.py-3
           p.fuente-14px.mb-0 Jorge A, Arboleda (2008). Manual de Evaluación de Impactos Ambientales para proyectos, obra actividades. Pág. 56 
-    p.my-5 Partiendo de esta base de identificación de impactos, entraremos a realizar la valoración de estos.
+    p(data-aos="fade-down-right") Partiendo de esta base de identificación de impactos, entraremos a realizar la valoración de estos.
     Separador
-    #t_3_7.tarjetas.titulo-segundo.color-acento-contenido
+    #t_3_7.tarjetas.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 3.7 Gestión del riesgo
-    figure.mb-5
+    figure.mb-5(data-aos="fade-down-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.my-5 Como lo ilustra la trayectoria de retroalimentación todo el proceso de gestión del riesgo es iterativo. El proceso se puede repetir muchas veces con criterios adicionales o modificados para la evaluación del riesgo que conducen a un proceso de mejora continua.
+    p.my-5(data-aos="fade-down-right") Como lo ilustra la trayectoria de retroalimentación todo el proceso de gestión del riesgo es iterativo. El proceso se puede repetir muchas veces con criterios adicionales o modificados para la evaluación del riesgo que conducen a un proceso de mejora continua.
     .row.justify-content-center
       .col-lg-10.col-md-12.fondo-2.p-3.p-sm-4
         .row.justify-content-center
           .col-lg-6.col-md-8.col-sm-10.col-12
             img(src="@/assets/curso/tema3/fig8.svg")
     //-titulo fondo azul
-    .row.my-5
+    .row.my-5(data-aos="fade-down-right")
       .col-auto.fondo-6.redondear.px-4.py-3.text-white
         h3.mb-0.text-center Riesgo Ambiental
-    p.mb-5 El riesgo ambiental se origina en la relación entre los seres humanos, sus actividades y el ambiente.
+    p.mb-5(data-aos="fade-down-right") El riesgo ambiental se origina en la relación entre los seres humanos, sus actividades y el ambiente.
 
     .row.justify-content-center
       .col-lg-2.col-3.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -592,15 +592,15 @@
       .col-lg-5.col-8
         img(src="@/assets/curso/tema3/img8.jpg")
     //-titulo fondo azul
-    .row.my-5
+    .row.my-5(data-aos="fade-down-right")
       .col-auto.fondo-6.redondear.px-4.py-3.text-white
         h3.mb-0.text-center Riesgo para el ambiente
-    p.mb-5 Este tipo de riesgo reconoce que las actividades de una organización pueden causar alguna forma de cambio ambiental. Los riesgos ambientales se pueden relacionar con la flora y la fauna; la salud y el bienestar humanos; la prosperidad cultural y social; los recursos terrestres, acuáticos y aéreos; la energía y el clima. Es necesario definir el alcance de cada estudio particular.
+    p.mb-5(data-aos="fade-down-right") Este tipo de riesgo reconoce que las actividades de una organización pueden causar alguna forma de cambio ambiental. Los riesgos ambientales se pueden relacionar con la flora y la fauna; la salud y el bienestar humanos; la prosperidad cultural y social; los recursos terrestres, acuáticos y aéreos; la energía y el clima. Es necesario definir el alcance de cada estudio particular.
     //-titulo fondo azul
-    .row.my-5
+    .row.my-5(data-aos="fade-down-right")
       .col-auto.fondo-6.redondear.px-4.py-3.text-white
         h3.mb-0.text-center Riesgo para una organización debido a temas relacionados con el ambiente
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-right")
       .col-12.fondo-4.p-4
         .row.justify-content-center.align-items-center
           .col-lg-3.col-md-6.col-8.mb-4.mb-lg-0

@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-down-right")
       .titulo-principal__numero
         span 2
       h1 Introducción Evaluación de Impacto ambiental
-    img.my-5(src="@/assets/curso/tema2/img1.jpg")
+    img(data-aos="fade-down-right").my-5(src="@/assets/curso/tema2/img1.jpg")
     .row
       .col-lg-2.col-md-3.col-3.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src="@/assets/curso/tema2/fig1.svg")
@@ -74,9 +74,9 @@
       .col-lg-8.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         .tarjeta.fondo-5.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-4.col-sm-3.col-lg-2.p-4
+            .col-6.col-sm-3.col-lg-2.p-4
               img(src="@/assets/curso/tema2/play.svg")
-            .col
+            .col-lg-10.col-sm-9.col-12
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white 
                   h3.mb-1 Tras emergencia del proyecto hidroeléctrico
