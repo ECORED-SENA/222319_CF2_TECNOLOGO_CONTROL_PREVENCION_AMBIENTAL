@@ -146,6 +146,12 @@ export default {
             titulo: 'Ejemplo de medidas de manejo ambiental',
             hash: 't_5_4',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.5',
+            titulo: 'Procedimiento para la selección de las medidas de manejo',
+            hash: 't_5_5',
+          },
         ],
       },
     ],
