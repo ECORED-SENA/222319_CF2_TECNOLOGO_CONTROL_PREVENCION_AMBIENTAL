@@ -42,19 +42,11 @@ export default {
         titulo:
           'Bases conceptuales para la Evaluación y Valoración de los aspectos, impactos y riesgos ambientales',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Metodologías de valoración de impactos ambientales',
-        desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas)',
+            titulo: 'Introducción',
             hash: 't_3_1',
           },
           {
@@ -96,10 +88,10 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema4',
+        nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Medidas de manejo ambiental',
+        numero: '4',
+        titulo: 'Metodologías de valoración de impactos ambientales',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -120,6 +112,39 @@ export default {
             titulo:
               'Metodología para la identificación y valoración de riesgos ambientales GTC 104 de 2009',
             hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Medidas de manejo ambiental',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Plan de Manejo Ambiental',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Esquema conceptual de la formulación del PMA',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Tipos de medida según los objetivos que se persiguen',
+            hash: 't_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.4',
+            titulo: 'Ejemplo de medidas de manejo ambiental',
+            hash: 't_5_4',
           },
         ],
       },
